@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="82" y="48" width="576" height="445" text="Browser&#xA;http://..." measuredWidth="576" measuredHeight="445">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="97" y="169" width="153" height="121" measuredWidth="153" measuredHeight="121" icon="user (large)"/>
+  <widgets xsi:type="model:TextField" id="3" x="82" y="104" width="576" text="Configuración del perfil" measuredWidth="576" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="288" y="144" width="241" text="Nombre de Usuario" measuredWidth="241" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="7" x="288" y="192" width="304" measuredWidth="304" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="288" y="240" width="241" text="Contraseña" measuredWidth="241" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="9" x="288" y="288" width="304" text="*************" measuredWidth="304" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="10" x="82" y="328" width="183" measuredWidth="183" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="12" x="264" y="126" height="208" measuredWidth="6" measuredHeight="208"/>
+  <widgets xsi:type="model:Button" id="13" x="591" y="104" height="24" text="Atrás" measuredWidth="47" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="97" y="344" width="400" text="Preferencias de privacidad y seguridad" measuredWidth="400" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="15" x="430" y="386" width="162" text="Modificar" measuredWidth="162" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="97" y="384" width="400" text="Preferencias de Ubicación" measuredWidth="400" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="430" y="346" width="162" text="Modificar" measuredWidth="162" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="240" y="440" width="184" text="Ver actividad reciente" measuredWidth="184" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
