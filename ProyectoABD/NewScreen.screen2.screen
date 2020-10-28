@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="64" y="32" width="665" height="449" text="Browser&#xA;http://..." measuredWidth="665" measuredHeight="449">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="3" x="74" y="90" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:TextField" id="4" x="105" y="94" text="Perfil de usuario" measuredWidth="96" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="7" x="232" y="94" width="129" text="Search" measuredWidth="129" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="97" y="176" width="313" text="Seguimiento de paquetes " measuredWidth="313" measuredHeight="36">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="11" x="68" y="128" width="661" measuredWidth="661" measuredHeight="6"/>
+  <widgets xsi:type="model:Table" id="14" x="96" y="232" text="Codigo Paquete, Paquete,Estado, Llega en(días)&#xA;0432,Encargo1,Procesando, 3&#xA;2353,Encargo 2,Recibido, 10&#xA;6446,Encargo 3,Enviando,6&#xA;4675,Encargo4,Procesando, 4&#xA;7975,Encargo5,Recibido, 7&#xA;4664,Encargo 6,Enviando,0&#xA;" measuredWidth="316" measuredHeight="151" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="18" x="465" y="242" text="(o) Ordenar por nombre (selected)&#xA;( ) Ordenar por Tiempo&#xA;( ) Solo recibidos&#xA;( ) Solo procesados " measuredWidth="193" measuredHeight="92" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="193" height="22" text="(o) Ordenar por nombre (selected)"/>
+    <items x="0" y="24" width="193" height="22" text="( ) Ordenar por Tiempo"/>
+    <items x="0" y="46" width="193" height="22" text="( ) Solo recibidos"/>
+    <items x="0" y="68" width="193" height="22" text="( ) Solo procesados "/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="19" x="465" y="360" text="Notificar cuando un pedido sea recibido" measuredWidth="233" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="88" y="392" width="337" text="Click en cualquier pedido para ver información más especifica" measuredWidth="337" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="21" x="160" y="256" text="3" measuredWidth="25" measuredHeight="25" link="NewScreen3.screen">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="24" x="176" y="94" text="4" measuredWidth="25" measuredHeight="25">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="25" x="608" y="90" measuredWidth="32" measuredHeight="32" icon="bell (large)"/>
+  <widgets xsi:type="model:Label" id="26" x="465" y="92" width="158" text="Notificaciones" measuredWidth="158" measuredHeight="29">
+    <font size="16px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
